@@ -23,8 +23,8 @@ h1{
     font-weight: bold;
 }
 img{
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
 }
 hr{
     height: 3px;
@@ -48,3 +48,35 @@ p{
     color: #d6d2d2;
     margin: 0;
 }
+
+/* Contact Page */
+/* Content Block */
+form{
+    color: #777777;
+}
+#pressButton{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+/* Portfolio Page */
+/* Content Block */
+.portfolioImg{
+    height: 170px;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    bottom: 80px;
+    text-align: center;
+} 
+/* Alternative Way to position Text with img */
+/* .ab{
+    top: 120px;
+    width: 100%;
+} */
